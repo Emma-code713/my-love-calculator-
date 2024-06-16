@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.large{
+    border: 1px solid black ;
+    width: 100%;
+    height: 645px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    box-sizing: border-box;
+    padding-bottom: 150px;
+}
+.small{
+    border: 1px solid black;
+    width: 50%;
+    height: 400px;
+    background-image: url(love\ 7.jpg);
+    background-size: cover;
+    border-radius: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+img{
+    width: 8%;
+    height: 50px;
+}
+#male{
+width: 35%;
+height: 50px;
+border-radius: 20%;
+font-size: 30px;
+text-align: center;
+}
+#female{
+    width: 35%;
+    height: 50px;
+    border-radius: 20%;
+    font-size: 30px;
+    text-align: center;
+}
+#make{
+    border: 1px solid black;
+    width: 50%;
+    height: 200px;
+    color: red;
+    font-size: 30px;
+    
+}
+button{
+    width: 30%;
+    height: 50px;
+    color: white;
+    font-size: 30px;
+    background-color: red;
+    border-radius: 10%;
+}
